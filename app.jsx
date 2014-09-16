@@ -124,7 +124,7 @@ function isSolved(board) {
   for(var i = 0; i < 9; i++){
     var indX = i%3;
     var indY = (i - i%3)/3;
-    if(board[indY][indX][1] === '-'){
+    if(board[indY][indX][1] === '–'){
       return 0;
     }
   }
